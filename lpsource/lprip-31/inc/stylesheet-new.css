@@ -1,0 +1,717 @@
+@font-face {
+    font-family: 'atrament_stdmedium';
+    src: url('https://agoodcdn.com/vanityfair/winona/fonts/atramentstdmedium-webfont.eot');
+    src: url('https://agoodcdn.com/vanityfair/winona/fonts/atramentstdmedium-webfont.eot?') format('embedded-opentype'), url('https://agoodcdn.com/vanityfair/winona/fonts/atramentstdmedium-webfont.woff2') format('woff2'), url('https://agoodcdn.com/vanityfair/winona/fonts/atramentstdmedium-webfont.woff') format('woff'), url('https://agoodcdn.com/vanityfair/winona/fonts/atramentstdmedium-webfont.ttf') format('truetype'), url('https://agoodcdn.com/vanityfair/winona/fonts/atramentstdmedium-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font: 400 16px/1.5 Tahoma, Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+}
+
+a{
+  color: #f02370;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: 'Playfair Display', serif;
+}
+
+.top {
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(150,150,150,0.25);
+    height: 175px;
+}
+
+@media only screen and (min-width: 300px){
+  .top {
+    height: 65px;
+  }
+}
+
+@media only screen and (min-width: 760px){
+  .top {
+    height: 80px;
+  }
+}
+
+@media only screen and (min-width: 900px){
+  .top {
+    height: 100px;
+  }
+}
+
+@media only screen and (min-width: 1100px){
+  .top {
+    height: 125px;
+  }
+}
+
+@media only screen and (min-width: 1480px){
+  .top {
+    height: 175px;
+  }
+}
+
+.topin {
+    width: 100%;
+    color: #ffffff;
+    height: 25px;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+}
+
+.topin div{
+  width: 33%;
+  float:left;
+  color: #000;
+  text-align: center;
+}
+
+.topin div:first-child{
+  text-align: left;
+}
+
+.topin div:last-child{
+  text-align: right;
+}
+.topin div i{
+  font-size: 30px;
+  padding: 25px;
+}
+
+
+
+.topin a {
+    padding-bottom: 2px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.topin img {
+    width: 100%;
+    padding: 25px 0;
+}
+
+.topin .sign {
+    float: left;
+    font-family: 'atrament_stdmedium';
+    font-size: 16px;
+}
+
+.topin .red {
+    background-color: #e30000;
+    float: right;
+    padding: 3px 0 0 5px;
+    height: 23px;
+    margin-top: -2px;
+}
+
+.topin .red a {
+    font-family: 'atrament_stdmedium';
+    font-size: 16px;
+}
+
+.topin .white {
+    float: right;
+    margin-left: 15px;
+    margin-top: 2px;
+    font-family: 'atrament_stdmedium';
+    font-size: 16px;
+}
+
+.topin h4 {
+  display: none;
+}
+
+@media screen and (min-width: 900px){
+  .topin h4 {
+    display: inline;
+  }
+}
+
+.nav {
+    display: none;
+    width: 100%;
+    padding: 10px 0 15px 10px;
+    background-color: #fff;
+    text-align: center;
+    float: left;
+    border-bottom: 1px solid rgba(150,150,150,0.25);
+}
+
+@media screen and (min-width: 900px){
+  .nav{
+    display: block;
+  }
+}
+
+.nav a {
+    color: #000000;
+    text-decoration: none;
+    /*margin-right: 60px;*/
+    margin: 0 50px 10px 50px;
+    font-family: 'atrament_stdmedium';
+    text-transform: uppercase;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.main .left h1 {
+  margin: 0;
+  font-size: 4em;
+  line-height: 1em;
+}
+
+.main .left h2{
+  margin: 0;
+}
+
+.main .left h1 span{
+  font-size: 0.5em;
+}
+.left {
+    width: 630px;
+    margin-right: 15px;
+    float: left;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-top: 20px;
+}
+.left .caption {
+    font-size: 20px;
+    text-align: center;
+    margin: 5px 0px;
+    font-family: "Georgia","Book Antiqua",Palatino,serif;
+    font-style: italic;
+  }
+  .left .subjectheader {
+      font-size: 2em !important;
+  }
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.right {
+    width: 240px;
+    float: left;
+}
+
+.media {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'atrament_stdmedium';
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.media font {
+    color: #e00000;
+}
+
+.pageheader {
+    text-align: center;
+    font-family: 'Georgia', 'Book Antiqua', Palatino, serif;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-style: italic;
+    line-height: normal;
+}
+
+.pageheader a {
+    color: #9c2000;
+}
+
+.rightimgcaption {
+    width: 98%;
+    font-size: 14px;
+    line-height: 23px;
+    font-style: italic;
+    text-align: left;
+    padding: 2% 1%;
+}
+
+.offer {
+  clear:both;
+  margin: 20px 0;
+}
+
+.product-hero{
+  clear:both;
+  color: #0e0e0e;
+  /*background-color: #f02370;
+  background: linear-gradient(30deg, #f02370, #fff);*/
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px 1px #ccc;
+}
+
+.product-hero .product-img{
+  display: inline-block;
+  vertical-align: middle;
+  width: 35%;
+  float:right;
+}
+
+.product-hero .product-img img {
+  margin-top: 30px;
+}
+
+.product-hero .product-inner {
+  display: inline-block;
+  vertical-align: middle;
+  width: 65%;
+  float: left;
+  clear: left;
+  font-family: 'Georgia', 'Book Antiqua', Palatino, serif
+}
+
+.product-hero .product-inner h1{
+  font-size: 80px;
+  padding: 0;
+  letter-spacing: -1.9px;
+  font-family: 'Georgia', 'Book Antiqua', Palatino, serif
+}
+
+.product-hero .product-inner h2{
+  font-size: 50px;
+  padding:0;
+  margin-bottom: 20px;
+  font-weight: normal;
+  font-family: 'Georgia', 'Book Antiqua', Palatino, serif
+
+}
+
+.product-hero .product-inner .product-btn{
+  display: block;
+  width: 250px;
+  padding: 15px;
+  background: #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #eee;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: 3px solid #eee;
+  box-shadow: 0 0 10px -2px #000;
+}
+
+.product-hero .product-inner .product-btn:hover {
+  background: #eee;
+  color: #000;
+  box-shadow: none;
+}
+
+.product-hero .product-inner p{
+  font-size: 16px;
+}
+
+.product-hero .product-inner p:first-child {
+  margin-top: 20px;
+}
+
+.product-hero .product-inner p span{
+  color: #777;
+  font-weight: 500;
+}
+
+
+
+.offer p, .offer div, .product-hero .clear{
+  clear:both;
+}
+
+@media (max-width: 768px){
+  .product-hero{
+    background: #fff;
+    text-align: center;
+    /*border: 2px solid #f02370;*/
+  }
+
+  .product-hero .product-inner h1{
+    font-size: 40px;
+    line-height: normal;
+  }
+
+  .product-hero .product-inner h2{
+    font-size: 25px;
+  }
+
+  .product-hero .product-img{
+    width: 100%;
+    float: none;
+  }
+
+  .product-hero .product-img img{
+    width: 50%;
+    margin: auto;
+  }
+
+  .product-hero .product-inner {
+    width: 100%;
+    float: none;
+  }
+
+  .product-hero .product-inner .product-btn{
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+    box-shadow: none;
+  }
+
+  .product-hero .product-inner p span{
+    color: #777;
+    font-weight: 500;
+  }
+}
+
+
+#footer {
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    margin-top: 50px;
+    clear: both;
+}
+
+.copyright {
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.copyright a {
+    color: #d68975;
+}
+
+.fbFeedbackContent {
+    border-top: 1px solid gray;
+    margin-top: 15px;
+    padding-top: 10px;
+    clear: both;
+}
+
+.fbFeedbackContent img {
+    float: left;
+    margin-right: 10px;
+}
+
+.fbFeedbackContent ul {
+    list-style: none;
+    display: block;
+}
+
+.fbFeedbackContent ul li {
+    float: left;
+}
+
+.UIImageBlock_Content {
+    width: 800px;
+    margin-bottom: 10px;
+    min-height: 70px;
+    border-bottom: 1px dotted gray;
+    padding-bottom: 5px;
+}
+
+.proimagesName {
+    color: #f02370;
+    font-family: 'atrament_stdmedium';
+    text-decoration: none;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.postText {
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.uiHeaderActions {
+    padding: 5px;
+    color: #e30000;
+    font-family: 'atrament_stdmedium';
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.day {
+    float: left;
+    background-color: #ff99bf;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: Tahoma;
+    color: #000;
+}
+
+.day img {
+    float: left;
+    margin-right: 15px;
+}
+
+.day h2 {
+    color:  #fff;
+}
+
+.day a {
+  color: #fff;
+}
+
+.step {
+    padding: 10px;
+    /*background-color: #c9ecef;*/
+    background: #f02370;
+    margin-top: 10px;
+    height: 220px;
+}
+
+.step img {
+    float: left;
+}
+
+.step h2 {
+    font-size: 18px;
+}
+
+.step p.seet {
+    font-size: 12px;
+}
+
+.recentcom {
+    font-family: 'atrament_stdmedium';
+    font-size: 26px;
+    padding-bottom: 10px;
+    width: 50%;
+    float: left;
+}
+
+.add-comment{
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+
+.subhead {
+    font-family: 'atrament_stdmedium';
+    font-size: 16px;
+    padding: 5px;
+}
+
+.subhead font {
+    color: #da251d;
+}
+
+.subhead span {
+    float: right;
+    color: #666666;
+}
+
+p {
+    line-height: 130%;
+    padding: 5px 0 5px 0;
+}
+
+.firstline {
+    padding: 10px;
+}
+
+h1 {
+    padding: 20px 0 0px 0;
+}
+
+.footerbanner {
+    background: url(https://agoodcdn.com/vanityfair/winona/css/img/vanity-f-banner.jpg) center top no-repeat;
+    width: 100%;
+    height: 200px;
+    solid gray;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:767px) {
+    body {
+      font-size: 16px;
+    }
+
+    .topin {
+        width: 95%;
+    }
+    .wrapper {
+        width: 95%;
+    }
+    .head img {
+        width: 95%;
+        height: auto;
+    }
+    .left {
+        width: 100%;
+    }
+    .main .left h1{
+      font-size: 2em;
+    }
+    .left img {
+        width: 100%;
+        height: auto;
+    }
+    .left p sup img {
+        width: 15px;
+        height: auto;
+    }
+    .day img {
+      display: block;
+      margin-left: 50px;
+      width: 70%;
+    }
+    .nav a {
+        display: inline-block;
+        padding: 0 10px;
+        margin: 0;
+    }
+    .right {
+        display: none;
+    }
+    .sign {
+        display: none;
+    }
+    .red {
+        display: none;
+    }
+    .white {
+        display: none;
+    }
+    .step {
+        height: auto;
+    }
+    .step-btn {
+        width: 200px;
+        height: auto;
+    }
+    .fbFeedbackContent {
+        width: 98%;
+    }
+    .postText {
+        width: 98%;
+    }
+    .UIImageBlock_Content {
+        width: 98%;
+    }
+    #footer {
+        width: 98%;
+    }
+    .gridContainer {
+        width: 98%;
+    }
+    .footerbanner {
+        width: 98%;
+    }
+    .copyright {
+        width: 98%;
+    }
+    .footerbanner {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .topin {
+        width: 100%;
+    }
+    .top {
+        width: 100%;
+    }
+    .head img {
+        width: 95%;
+        height: auto;
+        margin-left: 23px;
+    }
+    .wrapper {
+        width: 98%;
+        margin: 0 auto;
+    }
+    .left {
+        width: 100%;
+        margin-left: 5px;
+    }
+    .right {
+        margin-left: 250px;
+        display: none;
+    }
+    .nav {
+        text-align: center;
+    }
+    .nav a {
+        margin-right: 15px;
+    }
+    .left img {
+        width: 98%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .left p sup img {
+        width: 15px;
+        height: auto;
+    }
+    .fbFeedbackContent {
+        width: 98%;
+    }
+    .postText {
+        width: 98%;
+    }
+    .UIImageBlock_Content {
+        width: 98%;
+    }
+    #footer {
+        width: 98%;
+    }
+    .gridContainer {
+        width: 98%;
+    }
+    .footerbanner {
+        width: 98%;
+    }
+    .copyright {
+        width: 98%;
+    }
+    .footerbanner {
+        display: none;
+    }
+    .day img {
+        float: left;
+        margin-right: 15px;
+        width: 20%;
+        height: auto;
+    }
+}
+
+/*@media screen and (max-width:767px) {
+    body {
+      font-size: 24px;
+    }
+  }*/
