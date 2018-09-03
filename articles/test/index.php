@@ -1,6 +1,7 @@
 
 <?php
 global $debug_mode, $campaign_id, $filtering_action, $safe_redirect_url, $hybrid_mode;
+
 /*---------------------Edit Settings---------------------*/
 
 $debug_mode = false; //Causes the script to check for and output errors. Set to "true" when you are first installing/configuring the PHP integration script. Change to "false" before sending real visitors.
@@ -18,7 +19,7 @@ $fnnl = isset($_GET['fnnl']) ? $_GET['fnnl'] : NULL;
 if(!$fnnl)
 {
     // Default if fnnl is not defined
-    include('fb401_jess-rowe1.php');
+    include('cleanup-test.php');
 }
 else{
     include($fnnl.".php");
@@ -318,16 +319,12 @@ if ($campaign_id) {
     }
     else {
         /*VISITOR PASSED ALL TESTS*/
-$trkCampName = isset($_GET['tkc']) ? $_GET['tkc'] : NULL;
-        $lpURL = isset($_GET['lp']) ? $_GET['lp'] : NULL;
-        $fbName = isset($_GET['FB']) ? $_GET['FB'] : NULL;
-        
-        //if(file_exists($includePath))
-        if($includePath)
+
+   
+        if(file_exists($includePath))
         {
             // Show money page
-            $mPage = file_get_contents($includePath);
-            echo $mPage;
+            include($includePath);
             echo "<!- (1) ->";
 
         }
@@ -336,7 +333,6 @@ $trkCampName = isset($_GET['tkc']) ? $_GET['tkc'] : NULL;
             include('index_content.html');
             echo "<!- (-1) lpsrcerr ->";
         }
-        
         exit;
         
     }
@@ -349,16 +345,5 @@ include('index_content.html');
 if($pixel){
     echo "<img height=1 width=1 style='display:none' src='//www.facebook.com/tr?id=".$pixel."&ev=PageView&noscript=1' /> ";
 }
-// If campaign name is available, it can pull the pixel id associated to fire.
-$trkCampName = isset($_GET['tkc']) ? $_GET['tkc'] : NULL;
-$fbName = isset($_GET['FB']) ? $_GET['FB'] : NULL;
 
-if($fbName) {
-            $filedata = @file_get_contents($campPixUrlPrefix.$fbName);
-            if(!$filedata){exit;}
-            $fbPixelId = $filedata;
-            if($fbPixelId){
-                echo "<img height=1 width=1 style='display:none' src='//www.facebook.com/tr?id=".$fbPixelId."&ev=PageView&noscript=1' /> ";
-            }
-}
 ?>

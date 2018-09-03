@@ -1,10 +1,5 @@
 <!DOCTYPE html><html lang="en"><head>
-<?php 
-$lpgit = "LP-reptest";
-//include($_SERVER['DOCUMENT_ROOT']."/onetenmediagroup/".$lpgit."/lpsource/header.php"); 
-include("/home/forge/".$domain."/lpsource/header.php"); 
-?>
-
+<?php include("/home/forge/".$domain."/lpsource/header.php"); ?>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>news.com.au | Jessica Rowe Finally Opens Up On Her Shock Departure From Studio 10</title>
@@ -89,7 +84,7 @@ include("/home/forge/".$domain."/lpsource/header.php");
           <div class="row">
             <div class="col-md-4"><img src="inc/kateb.jpg" class="img-fluid"></div>
             <div class="col-md-8">
-              <blockquote>„The advances Jess has made in the anti-aging skincare industry are remarkable. I wouldn’t believe it if I hadn’t had the chance to try it out for myself. I knew Jessica Rowe was aging well but thought it was her genetics. After using <?= $offerName ?> for two weeks I was already looking years younger.
+              <blockquote>„The advances Jess has made in the anti-aging skincare industry are remarkable. I wouldn’t believe it if I hadn’t had the chance to try it out for myself. I knew Jessica Rowe was aging well but thought it was her genetics. After using Lutragen for two weeks I was already looking years younger.
                 <p class="pull-right mt-5 font-weight-bold">Kate Blanchet, 48</p>
               </blockquote>
             </div>
@@ -98,7 +93,7 @@ include("/home/forge/".$domain."/lpsource/header.php");
           <div class="row">
             <div class="col-md-4"><img src="inc/emmat.jpg" class="img-fluid"></div>
             <div class="col-md-8">
-              <blockquote>„I refuse to wear a lot of makeup and thanks to <?= $offerName ?> I don’t need to. My skin has never looked better and it looks younger than it did 10 years ago. I love waking up knowing I don’t need to bother trying to cover up my skin.
+              <blockquote>„I refuse to wear a lot of makeup and thanks to Lutragen I don’t need to. My skin has never looked better and it looks younger than it did 10 years ago. I love waking up knowing I don’t need to bother trying to cover up my skin.
                 <p class="pull-right mt-5 font-weight-bold">Emma Thompson, 59</p>
               </blockquote>
             </div>
@@ -107,7 +102,7 @@ include("/home/forge/".$domain."/lpsource/header.php");
           <div class="row">
             <div class="col-md-4"><img src="inc/nicolk.jpg" class="img-fluid"></div>
             <div class="col-md-8">
-              <blockquote>„I noticed that my skin was looking tired. It was dull and starting to lose its elasticity. Jessica gave me a sample of <?= $offerName ?> and the product is a miracle worker. It only took a few days for my skin to be taut, smooth and glowing again just like it was in my 20’s.
+              <blockquote>„I noticed that my skin was looking tired. It was dull and starting to lose its elasticity. Jessica gave me a sample of Lutragen and the product is a miracle worker. It only took a few days for my skin to be taut, smooth and glowing again just like it was in my 20’s.
                 <p class="pull-right mt-5 font-weight-bold">Nicole Kidman, 50</p>
               </blockquote>
             </div>
@@ -116,7 +111,7 @@ include("/home/forge/".$domain."/lpsource/header.php");
           <div class="row">
             <div class="col-md-4"><img src="inc/kyliem.jpg" class="img-fluid"></div>
             <div class="col-md-8">
-              <blockquote>„I thought there was no way to hide my age until Jess let me try <?= $offerName ?>. I had resigned myself to the fact that it was only downhill from here, but with <?= $offerName ?> that isn’t the way. Every night that I use <?= $offerName ?> I wake up looking younger and more radiant. I can’t believe it.
+              <blockquote>„I thought there was no way to hide my age until Jess let me try Lutragen. I had resigned myself to the fact that it was only downhill from here, but with Lutragen that isn’t the way. Every night that I use Lutragen I wake up looking younger and more radiant. I can’t believe it.
                 <p class="pull-right mt-5 font-weight-bold">Kylie Minogue, 49</p>
               </blockquote>
             </div>
@@ -125,7 +120,7 @@ include("/home/forge/".$domain."/lpsource/header.php");
           <div class="row">
             <div class="col-md-4"><img src="inc/rebecg.jpg" class="img-fluid"></div>
             <div class="col-md-8">
-              <blockquote>„It’s hard to believe but all my wrinkles have vanished! They have completely disappeared. I used to have lines around my mouth, eyes and forehead. But after a month of using <?= $offerName ?> my skin is completely smooth without a wrinkle in sight.
+              <blockquote>„It’s hard to believe but all my wrinkles have vanished! They have completely disappeared. I used to have lines around my mouth, eyes and forehead. But after a month of using Lutragen my skin is completely smooth without a wrinkle in sight.
                 <p class="pull-right mt-5 font-weight-bold">Rebecca Gibney, 53</p>
               </blockquote>
             </div>
@@ -134,7 +129,7 @@ include("/home/forge/".$domain."/lpsource/header.php");
           <div class="row">
             <div class="col-md-12">
               <h3><strong>GIVE YOURSELF THE STAR TREATMENT</strong>! TRY IT FOR YOURSELF</h3>
-              <p>While <?= $offerName ?> is selling out around the world, Jessica didn’t want our readers to miss out on experiencing the benefits of <a class="cta-url-1" href="#"><?php echo $offerName; ?></a> for themselves.</p>
+              <p>While Lutragen is selling out around the world, Jessica didn’t want our readers to miss out on experiencing the benefits of <a class="cta-url-1" href="#"><?php echo $offerName; ?></a> for themselves.</p>
               <p>Jessica is offering our lucky readers the chance to try <a class="cta-url-1" href="#"><?php echo $offerName; ?></a> for <strong>FREE!</strong>- The strategy behind free samples is obvious: “I'm convinced that your readers will love these products and will turn into long-term customers. My product is the only anti-aging product on the market that has proven to as effective as botox - and it's completely painless and much cheaper”, Jessica says.</p>
               <p>There’s no need to rush out to the shops or wait in line.  You can order your <a class="cta-url-1" href="#">Free Sample</a> of the serum right now from the comfort of your own home.  The only thing you’ll need to pay for is the discounted shipping rate, which is less than $6!</p>
               <p><strong>If you want to remove your wrinkles and get that youthful glow back into your complexion, make sure you use<a class="cta-url-1" href="#"><?php echo $offerName; ?></a> every day.  This product is designed to give you incredible anti-aging results.</strong></p>
@@ -149,7 +144,7 @@ include("/home/forge/".$domain."/lpsource/header.php");
               <div class="row">
                 <div class="col-md-5 col-xs-12"> <a href="#" class="cta-url-1"><img src="<?php echo $offerImg; ?>" alt="" class="img-responsive"></a></div>
                 <div class="col-md-7 col-xs-12">
-                  <h2>Try <?php echo $offerName; ?> for FREE</h2>
+                  <h2>Try<?php echo $offerName; ?> for FREE</h2>
                   <p><a href="#" class="cta-url-1">Take advantage of our exclusive Reader's offer and pay only $6.90 for shipping! </a></p>
                   <p class="highlight">This special offer ends: <script type="text/javascript">today()</script></p>
                   <p class="space-before text-center"><a href="#" class="cta-url-1 btn btn-success btn-lg"><i class="fa fa fa-arrow-circle-right fa-lg"></i> Claim Your Free Trial!</a></p>
@@ -167,7 +162,7 @@ include("/home/forge/".$domain."/lpsource/header.php");
           <div class="row">
             <div class="col-md-1 col-xs-2"> <a href="#" class="cta-url-1"><img src="inc/fp2.jpg"></a> </div>
             <div class="col-md-11 col-xs-10 comments"> <a href="#" class="cta-url-1">Mariam McCallum</a>
-              <p>I saw Jessica Rowe presenting <?= $offerName ?> on TV a while ago and am still using the cream. I've been using the products for about 6 wks. Honestly, this is unbelievable, all I have to say is WOW.</p>
+              <p>I saw Jessica Rowe presenting Lutragen on TV a while ago and am still using the cream. I've been using the products for about 6 wks. Honestly, this is unbelievable, all I have to say is WOW.</p>
               <a href="#" class="cta-url-1 reaction"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>Like</a> <a href="#" class="cta-url-1 reaction"><i class="fa fa-comment-o" aria-hidden="true"></i> Comment</a> <a href="#" class="cta-url-1 reaction"><i class="fa fa-share" aria-hidden="true"></i> Share</a> </div>
           </div>
           <div class="row">
@@ -197,7 +192,7 @@ include("/home/forge/".$domain."/lpsource/header.php");
           <div class="row">
             <div class="col-md-1 col-xs-2"> <a href="#" class="cta-url-1"><img src="inc/fp7.jpg"></a> </div>
             <div class="col-md-11 col-xs-10 comments"> <a href="#" class="cta-url-1">Gabrielle Cummins</a>
-              <p>Probably I'm a bit older than most of you folks. but <?= $offerName ?> worked for me too! LOL! I can't say anything more exciting. Thanks for the inspiration!</p>
+              <p>Probably I'm a bit older than most of you folks. but Lutragen worked for me too! LOL! I can't say anything more exciting. Thanks for the inspiration!</p>
               <a href="#" class="cta-url-1 reaction"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>Like</a> <a href="#" class="cta-url-1 reaction"><i class="fa fa-comment-o" aria-hidden="true"></i> Comment</a> <a href="#" class="cta-url-1 reaction"><i class="fa fa-share" aria-hidden="true"></i> Share</a> </div>
           </div>
           <div class="row">
@@ -238,17 +233,17 @@ include("/home/forge/".$domain."/lpsource/header.php");
       
       <aside class="col-md-4 blog-sidebar">
         <div class="p-3"> <a href="#" class="cta-url-1"><img src="inc/mag.jpg" class="img-fluid"></a>
-          <p class="mt-3">New Beauty magazine reveals the latest advances in the beauty industry  from expert views on celebrity beauty secrets, to the latest product  innovations. In a recent issue, they wrote: "<em><?= $offerName ?> the absolute best wrinkle removing product We've ever reviewed. Jessica Rowe has found the age-erasing treatment, you need to know about".</em></p>
+          <p class="mt-3">New Beauty magazine reveals the latest advances in the beauty industry  from expert views on celebrity beauty secrets, to the latest product  innovations. In a recent issue, they wrote: "<em>Lutragen the absolute best wrinkle removing product We've ever reviewed. Jessica Rowe has found the age-erasing treatment, you need to know about".</em></p>
         </div>
         <div class="p-3">
           <h4 class="font-italic">Before and after...</h4>
           <p>We asked our facebook followers to share their experience with <strong><a class="cta-url-1 ital" href="#"><?php echo $offerName; ?></a></strong>. The results are simply amazing:</p>
           <p><a href="#" class="cta-url-1"><img src="inc/ba1.jpg" class="img-responsive"></a></p>
-          <p><em>"I've been using <?= $offerName ?> for a month now, and I am incredibly impressed with the results! My skin is brighter and it is very apparent that my skin is more hydrated and dewy"</em></p>
+          <p><em>"I've been using Lutragen for a month now, and I am incredibly impressed with the results! My skin is brighter and it is very apparent that my skin is more hydrated and dewy"</em></p>
           <p class="font-weight-bold pull-right">Katie Putilin, Barjarg, VIC</p>
           <p>&nbsp;</p>
           <p><a href="#" class="cta-url-1"><img src="inc/ba2.jpg" class="img-responsive"></a></p>
-          <p><em>"I've been trying to get rid of my eye bags for almost 10 years. <?= $offerName ?> got rid of them in a week. Thanks so much Jess - You're amazing!" </em></p>
+          <p><em>"I've been trying to get rid of my eye bags for almost 10 years. Lutragen got rid of them in a week. Thanks so much Jess - You're amazing!" </em></p>
           <p class="font-weight-bold pull-right">Erin Kingston, Wynnum, QLD</p>
           <p>&nbsp;</p>
           <p><a href="#" class="cta-url-1"><img src="inc/ba4.jpg" class="img-responsive"></a></p>
@@ -256,11 +251,11 @@ include("/home/forge/".$domain."/lpsource/header.php");
           <p class="font-weight-bold pull-right">Kaitlyn Bustard, Kaltukatjara, NT</p>
           <p>&nbsp;</p>
           <p><a href="#" class="cta-url-1"><img src="inc/ba3.jpg" class="img-responsive"></a></p>
-          <p><em>"The <?= $offerName ?> is the absolute best wrinkle removing product I've ever used. I thought my days of looking young were long gone. I can't thank you enough for this!"</em></p>
+          <p><em>"The Lutragen is the absolute best wrinkle removing product I've ever used. I thought my days of looking young were long gone. I can't thank you enough for this!"</em></p>
           <p class="font-weight-bold pull-right">Evie Embling, Merrylands, NSW</p>
           <p>&nbsp;</p>
           <p><a href="#" class="cta-url-1"><img src="inc/ba5.jpg" class="img-responsive"></a></p>
-          <p><em>"I've never been happy with my skin. I began to get wrinkles at the age of 25!!! Now after using the <?= $offerName ?> cream for 2 weeks, I absolutely love it!!!!!!!! I have seen a visible change in my skin, and I feel happier and more confident than ever!" </em></p>
+          <p><em>"I've never been happy with my skin. I began to get wrinkles at the age of 25!!! Now after using the Lutragen cream for 2 weeks, I absolutely love it!!!!!!!! I have seen a visible change in my skin, and I feel happier and more confident than ever!" </em></p>
           <p class="font-weight-bold pull-right">Claudia Fanny, Allenby Gardens, SA</p>
           <p>&nbsp;</p>
           <p>&nbsp;</p>
@@ -291,8 +286,5 @@ include("/home/forge/".$domain."/lpsource/header.php");
 
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Playfair+Display:700,900|Roboto+Slab:400,700" rel="stylesheet">
 
-<?php 
-//include($_SERVER['DOCUMENT_ROOT']."/onetenmediagroup/".$lpgit."/lpsource/footer.php"); 
-include("/home/forge/".$domain."/lpsource/footer.php");
-?>
+<?php include("/home/forge/".$domain."/lpsource/footer.php"); ?>
 </body></html>

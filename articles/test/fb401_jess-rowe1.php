@@ -2,20 +2,20 @@
 
 $flux_fts="xqappicaipxlziilzaexzzcpooqqqtzaapctqd210c";
 $flux_fn="310735590400005295";
-$lpURL="jess-rowe1";
-$offerName="Hydra-Claire";
-$offerImg="https://inc.s3.amazonaws.com/hydra-claire-comp.png";
-$offerName2="";
-$offerImg2="";
-$pixel=isset($_GET['ccid']) ? $_GET['ccid'] : '1234';
+$lpURL="jess-rowe1"; //folder name from the /lpsource
+$offerName="Hydra-Claire"; //Display Link of the product in the page
+$offerImg="https://inc.s3.amazonaws.com/hydra-claire-comp.png"; //image source of the offer image to display after the article content
+$offerName2=""; //Not applicable in this LP
+$offerImg2="";  //Not applicable in this LP
+$pixel="1234"; //FB pixel ID called in $ctaiFrameURL and index_content.html
 
 $domain = $_SERVER['HTTP_HOST'];
 //edit pop image url
-$popImg = "https://s3.amazonaws.com/inc/pop1.jpg";
-$baseUrl = "http://".$domain."/lpsource/".$lpURL."/";
-//$includePath = "/home/forge/".$domain."/lpsource/".$lpURL."/index.html";
-$includePath = "https://raw.githubusercontent.com/onetenmediagroup/LP-reptest/master/lpsource/jess-rowe1/index_raw.php";
+$popImg = "https://s3.amazonaws.com/inc/pop1.jpg"; //content for the exit pop image
+$baseUrl = "http://".$domain."/lpsource/".$lpURL."/"; //base url for the landing page folder
+$includePath = "/home/forge/".$domain."/lpsource/".$lpURL."/index_raw.php"; //source path of Landing Page
 $ctaiFrameURL= "http://".$domain."/thank-you/atc_pix.php?"."pix=".$pixel;
 $outURL = "http://".$domain."/thank-you/out.php";
+
 
 ?>
