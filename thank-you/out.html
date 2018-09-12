@@ -1,0 +1,31 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<script src="base64.js"></script>
+<script>
+var get_params = function(search_string) {
+
+  var parse = function(params, pairs) {
+    var pair = pairs[0];
+    var parts = pair.split('=');
+    var key = decodeURIComponent(parts[0]);
+    var value = decodeURIComponent(parts.slice(1).join('='));
+
+    if (typeof params[key] === "undefined") {
+      params[key] = value;
+    } else {
+      params[key] = [].concat(params[key], value);
+    }
+
+    return pairs.length == 1 ? params : parse(params, pairs.slice(1))
+  }
+
+  return search_string.length == 0 ? {} : parse({}, search_string.substr(1).split('&'));
+}
+
+var params = get_params(location.search);
+var to = Base64.decode(params['to']);
+
+window.location.href=to;
+</script>
+</head>
+<body>
+</body></html>
