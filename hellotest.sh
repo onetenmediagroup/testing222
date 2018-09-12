@@ -1,7 +1,7 @@
 #!/bin/bash
 dest=/home/forge/versionstorage.conradotest.xyz
 folder=${PWD##*/}
-time=$(date +%d-%m-%y)
+time=$(date +%d-%m-%y-%H%M)
 zipfile=$dest/$folder-$time.zip
 echo $zipfile
 zip -r $zipfile ./*
